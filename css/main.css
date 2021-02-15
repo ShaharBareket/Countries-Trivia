@@ -1,0 +1,128 @@
+body {
+    background-image: url(../img/wall.jpg);
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 46px;
+    font-family: fantasy;
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: fantasy;
+    color: black;
+    -webkit-text-fill-color: rgb(14, 204, 141);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.opt1-container,
+.opt3-container {
+    height: 35px;
+    width: 200px;
+    background-color: #408aac;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.opt2-container,
+.opt4-container {
+    height: 35px;
+    width: 200px;
+    background-color: #408aac;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.opt1-container:hover,
+.opt2-container:hover,
+.opt3-container:hover,
+.opt4-container:hover {
+    border-color: white;
+    color: white;
+}
+
+.wrong {
+    background-color: red;
+    color: white;
+    cursor: not-allowed;
+    width: 120px;
+}
+
+.right {
+    background-color: green;
+    color: white;
+    cursor: progress;
+    width: 120px;
+}
+
+.winner-modal {
+    display: none;
+    height: 30px;
+    width: 200px;
+    background-color: rgb(14, 204, 141);
+    /* border-radius: 50px; */
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.3s;
+    color: white;
+}
+
+.replay-btn {
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: none;
+    cursor: pointer;
+    border-color: black;
+    background-color: rgb(192, 187, 187);
+    color: #5d00ff;
+    border-radius: 50px;
+}
